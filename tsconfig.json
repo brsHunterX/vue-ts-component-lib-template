@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "sourceMap": true,
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
-    "jsx": "preserve",
+    "declaration": true,
+    "outDir": "dist/",
     "importHelpers": true,
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
-    "baseUrl": ".",
     "types": [
       "webpack-env"
     ],
